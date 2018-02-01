@@ -123,7 +123,6 @@ rewardsfile = 'rewards_'+learning_prefix2+'.txt'
 np.savetxt(rewardsfile,np.array(all_rewards))
 
 #Restore model from datafiles
-# Meta file stores the graph while checkpoint file contains the weights
 #with tf.Session() as sess:
 #    saver = tf.train.import_meta_graph('filename.meta')
 #    saver.restore(sess, "checkpoint_file")
