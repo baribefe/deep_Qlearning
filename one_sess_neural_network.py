@@ -57,12 +57,3 @@ class neural_network(object):
 
     def save_model(self,sess,filename):
         self.saver.save(sess, filename)
-
-#dataX = np.loadtxt('memoryX.txt',dtype='float32')
-#dataY = tf.one_hot(np.loadtxt('memoryY.txt'),4)
-
-#testX = np.loadtxt('test.txt',dtype='float32')
-
-#q_network = neural_network(hidden1=500, hidden2=500, hidden3=500, n_classes=4, batch_size=100,nvariables=8)
-#q_network.train_neural_network(dataX,dataY)
-#print q_network.test_neural_network(np.reshape(testX, (1,-1)))
