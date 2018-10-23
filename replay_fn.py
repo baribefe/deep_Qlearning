@@ -19,8 +19,8 @@ class reply_fn(object):
 	    #remove_idx = np.random.randint(0,len(self.states),size=1)
             remove_idx = 0
             self.states.pop(remove_idx)
-	    self.s_primes.pop(remove_idx)
-	    self.rewards.pop(remove_idx)
+            self.s_primes.pop(remove_idx)
+            self.rewards.pop(remove_idx)
             self.terminal.pop(remove_idx)
             self.actions.pop(remove_idx)
 
